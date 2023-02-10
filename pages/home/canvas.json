@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1280,
+          "bottomRow": 920,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -39,7 +39,7 @@
                 }
               ],
               "topRow": 0,
-              "bottomRow": 86,
+              "bottomRow": 84,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "parentColumnSpace": 19.75,
@@ -63,14 +63,14 @@
                   "widgetId": "59rw5mx0bq",
                   "containerStyle": "none",
                   "topRow": 0,
-                  "bottomRow": 860,
+                  "bottomRow": 840,
                   "parentRowSpace": 1,
                   "isVisible": "true",
                   "canExtend": false,
                   "type": "CANVAS_WIDGET",
                   "version": 1,
                   "parentId": "mvubsemxfo",
-                  "minHeight": 870,
+                  "minHeight": 840,
                   "isLoading": false,
                   "parentColumnSpace": 1,
                   "dynamicTriggerPathList": [],
@@ -588,7 +588,7 @@
               "borderWidth": "0",
               "labelTextSize": "0.875rem",
               "backgroundColor": "#FFFFFF",
-              "rightColumn": 39,
+              "rightColumn": 48,
               "dynamicHeight": "FIXED",
               "widgetId": "mvubsemxfo",
               "containerStyle": "card",
@@ -1605,7 +1605,7 @@
               "iconSVG": "/static/media/icon.6bacf7df.svg",
               "onSubmit": "{{UpdateQuery.run(() => SelectQuery.run(), (error) => showAlert(`Error while updating resource!\\n ${error}`,'error'))}}",
               "topRow": 0,
-              "bottomRow": 86,
+              "bottomRow": 84,
               "fieldLimitExceeded": false,
               "parentRowSpace": 10,
               "title": "Update Row id: {{data_table.selectedRow.id}}",
@@ -1618,7 +1618,7 @@
                   "key": "onSubmit"
                 }
               ],
-              "leftColumn": 39,
+              "leftColumn": 48,
               "dynamicBindingPathList": [
                 {
                   "key": "schema.__root_schema__.defaultValue"
@@ -1875,7 +1875,7 @@
     ],
     "userPermissions": [],
     "policies": [],
-    "isHidden": false
+    "isHidden": true
   },
   "deleted": false,
   "gitSyncId": "63e5bcd41e242279f590f6ef_63e5e1a61e242279f590f9a8"
